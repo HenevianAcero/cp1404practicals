@@ -17,5 +17,4 @@ def get_password(length_of_password):
         password = input("Please enter a password: ")
     return password
 
-
 main()
