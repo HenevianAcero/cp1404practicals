@@ -19,4 +19,3 @@ def get_name_from_email(email):
     name = " ".join(parts).title()
     return name
 
-main()
