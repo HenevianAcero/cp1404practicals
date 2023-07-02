@@ -1,7 +1,7 @@
 '''
 Word Occurrences
 Estimated time: 25 minutes
-Actual time: 35 minutes
+Actual time: 36 minutes
 '''
 word_to_count = {}
 text = input("Text: ")
