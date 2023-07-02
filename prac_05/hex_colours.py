@@ -6,7 +6,7 @@ COLOUR_TO_CODE = {"Amethyst": "#9966cc", "GhostWhite": "#f8f8ff", "GOGreen": "#0
 print(COLOUR_TO_CODE)
 
 
-state_colour = input("Enter a colour: ").lower()
+state_colour = input("Enter a colour: ").upper()
 while state_colour != "":
     if state_colour in COLOUR_TO_CODE:
         print(f"{COLOUR_TO_CODE.get(state_colour)}")
