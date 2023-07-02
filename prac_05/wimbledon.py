@@ -23,7 +23,7 @@ def display_results(count_number_of_champions, countries):
     print("Wimbledon Champions: ")
     for name, count in count_number_of_champions.items():
         print(name, count)
-    print(f"\nThese {len(countries)} countries have won Wimbledon: ")
+    print(f"These {len(countries)} countries have won Wimbledon: ")
     print(", ".join(country for country in sorted(countries)))
 def get_records(filename):
     records = []
