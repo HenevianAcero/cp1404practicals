@@ -2,7 +2,7 @@
 CP1404 Practical 07
 language_file_reader.py
 Estimated time: 10 mins
-Actual time: 12 mins
+Actual time: 15 mins
 """
 
 import csv
