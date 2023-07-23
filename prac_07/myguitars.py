@@ -2,7 +2,7 @@
 CP1404 Practical 07
 myguitars.py
 Estimated time: 30 mins
-Actual time: 45 mins
+Actual time: 43 mins
 """
 
 from prac_06.guitar import Guitar
