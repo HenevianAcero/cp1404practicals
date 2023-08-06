@@ -2,7 +2,7 @@
 CP1404 Practical 09
 Car class
 Estimated time: 5 mins
-Actual time: 7 mins
+Actual time: 8 mins
 """
 from prac_09.car import Car
 
