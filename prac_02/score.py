@@ -1,17 +1,28 @@
 """
-CP1404 - Practical 1
-broken_score.py
+CP1404 - Practical 2
+score.py
 
-Broken program to determine score status
 """
+import random
 
-score = float(input("Enter score: "))
-if score >= 0 and score <= 100:
-    if score >= 90:
-        print("Excellent")
-    elif score >= 50:
-        print("Passable")
+
+def main():
+    score = float(input("Enter score: "))
+    get_score_status(score)
+    print(get_score_status(score))
+    score = random.randint(1, 100)
+    print(score)
+    print(get_score_status(score))
+
+def get_score_status(score):
+    if score >= 0 and score <= 100:
+        if score >= 90:
+            return "Excellent"
+        elif score >= 50:
+            return "Passable"
+        else:
+            return "Bad"
     else:
-        print("Bad")
-else:
-    print("Invalid score")
+        return "Invalid score"
+
+main()
