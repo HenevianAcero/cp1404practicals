@@ -6,10 +6,11 @@ def main():
         print("Invalid password!")
         password = input("Please enter a password: ")
     print_password(password)
+    print(print_password(password))
 
 
 def print_password(password):
-    print(len(password) * "*")
+    return len(password) * "*"
 
 
 def get_password():
