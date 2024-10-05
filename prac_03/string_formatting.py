@@ -1,9 +1,7 @@
 """
 CP1404 Practical 3
-Various examples of using Python string formatting.
-(We prefer f-strings in this subject.)
-Want to read more about it?
-https://docs.python.org/3/library/string.html#formatstrings
+string_formatting.py
+
 """
 
 name = "Gibson L-5 CES"
