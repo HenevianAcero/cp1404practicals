@@ -1,8 +1,6 @@
 """
 CP1404 Practical 6
 state_names.py
-State names in a dictionary
-File needs reformatting
 
 """
 
