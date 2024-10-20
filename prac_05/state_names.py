@@ -1,5 +1,5 @@
 """
-CP1404 Practical 6
+CP1404 Practical 5
 state_names.py
 
 """
@@ -14,5 +14,6 @@ while state_code != "":
         try:
             print(f"{state_code:3} is {CODE_TO_NAME[state_code]}")
         except KeyError:
-            print("Invalid short state")
+            print("Short state is invalid")
     state_code = input("Enter short state: ").upper()
+
