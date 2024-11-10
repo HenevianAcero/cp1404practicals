@@ -24,6 +24,7 @@ def main():
         guitars = Guitar(parts)
         # Add the language to the list
         guitars.append(Guitar)
+        guitars.sort()
     # Close the file as soon as we've finished reading it
     in_file.close()
 
