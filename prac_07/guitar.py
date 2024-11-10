@@ -2,7 +2,7 @@
 CP1404 Practical 7
 guitar.py
 Estimated time: 20 mins
-Actual time: 9 mins
+Actual time: 10 mins
 
 """
 
