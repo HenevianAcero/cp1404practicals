@@ -26,7 +26,7 @@ def main():
         # Reflection is stored as a string and a Boolean
         reflection = parts[2] == "Yes"
         pointer_arithmetic = parts[3] == "Yes"
-        language = ProgrammingLanguage(parts[0], parts[1], reflection, pointer_arithmetic, int(parts[3]))
+        language = ProgrammingLanguage(parts[0], parts[1], reflection, pointer_arithmetic, int(parts[4]))
         # Add the language to the list
         languages.append(language)
     # Close the file as soon as we've finished reading it
