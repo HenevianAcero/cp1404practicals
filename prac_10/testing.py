@@ -47,9 +47,9 @@ def run_tests():
     assert car.fuel = 0
 
 def format_sentence(word):
-    sentence = word[1].upper()
-    if sentence [-1] != ".":
-        sentence += "."
+    sentence = word.upper()
+    if sentence [-1] != "":
+        sentence += ""
     return sentence
 
 run_tests()
