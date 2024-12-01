@@ -2,7 +2,7 @@
 CP1404 Practical 10
 wiki.py
 Estimated time: 10 mins
-Actual time:
+Actual time: 11 mins
 """
 
 import wikipedia
